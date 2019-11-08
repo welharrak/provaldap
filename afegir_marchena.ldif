@@ -1,0 +1,27 @@
+dn: idcat=100,ou=socis,dc=walid,dc=cat
+changetype: modify
+add: objectclass
+objectclass: marchenaAccount
+-
+add: delictes
+delictes: Copiar tesis
+-
+add: anysComdemna
+anysComdemna: 0
+-
+add: galeres
+galeres: TRUE
+
+dn: idcat=200,ou=socis,dc=walid,dc=cat
+changetype: modify
+add: objectclass
+objectclass: marchenaAccount
+-
+add: delictes
+delictes: Prendre prestat diner public
+-
+add: anysComdemna
+anysComdemna: 5
+-
+add: galeres
+galeres: TRUE

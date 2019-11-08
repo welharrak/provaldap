@@ -1,0 +1,41 @@
+dn: dc=walid,dc=cat
+dc: walid
+description: Emmagatzemacio d'informacio de socis i simpatitzants
+objectClass: dcObject
+objectClass: organization
+o: walid.cat
+
+dn: ou=socis,dc=walid,dc=cat
+ou: socis
+description: Informacio del socis de l'empresa
+objectclass: organizationalunit
+
+dn: idcat=100,ou=socis,dc=walid,dc=cat
+objectclass: indepeOrgPerson
+cn: Pedro Sanchez
+sn: Snachez
+idcat: 100
+foto: /opt/docker/pedro.jpg
+sardanes: False
+lema: Ahora si
+twitter: www.twitter.com/pedro_sanchez
+
+dn: idcat=200,ou=socis,dc=walid,dc=cat
+objectclass: indepeOrgPerson
+cn: Pablo Casado
+sn: Casado
+idcat: 200
+foto: /opt/docker/ppablo.jpg
+sardanes: False
+lema: Por todo
+twitter: www.twitter.com/pp_casado
+
+dn: idcat=300,ou=socis,dc=walid,dc=cat
+objectclass: indepeOrgPerson
+cn: Pablo Iglesias
+sn: Iglesias
+idcat: 300
+foto: /opt/docker/pablo.jpg
+sardanes: True
+lema: Unidos Podemos
+twitter: www.twitter.com/pablo_iglesias
